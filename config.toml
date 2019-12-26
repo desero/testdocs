@@ -1,0 +1,29 @@
+baseURL = "https://www.presslabs.com/docs/"
+languageCode = "en-us"
+title = "Presslabs DOCS"
+theme = "hugo-theme"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsUseClasses = true
+
+# [markup]
+#   defaultMarkdownHandler = "goldmark"
+
+[[menu.global]]
+  name = "Getting Started"
+  weight = 1
+  identifier = "getting-started"
+  url = "/getting-started/"
+
+[[menu.global]]
+  name = "Development"
+  weight = 2
+  identifier = "development"
+  url = "/development/"
+
+[[menu.global]]
+  name = "Access"
+  weight = 1
+  identifier = "access"
+  parent = "development"
+  url = "/access/"
