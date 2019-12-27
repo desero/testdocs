@@ -1,4 +1,4 @@
-baseURL = "http://www.presslabs.docs/"
+baseURL = "http://www.presslabs.docs:8080/"
 languageCode = "en-us"
 title = "Presslabs DOCS"
 theme = "hugo-theme"
